@@ -36,4 +36,28 @@ h1 {
 -----------------------------------------------*/
 .squares:nth-child(-n+4) p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
+}
+
+/* --------------------------------------------
+	INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
+-----------------------------------------------*/
+.squares:nth-last-child(1) {
+    background: #4240ff;
+}
+
+.squares:nth-last-child(2) {
+    background: #ab3fdd;
+}
+
+.squares:nth-last-child(3) {
+    background: #ae163e;
+}
+
+.squares:nth-last-child(4) {
+    background: #00b200;
 }
