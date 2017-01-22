@@ -309,7 +309,8 @@ section {
 	color: orange;
 	text-decoration: underline;
 }
-
+/* ========== I keep getting an error message from my VS code mentioning the float:right; of the css property will be ignored due to inline being on. 
+"Property is ignored due to the display. With 'display: inline', the width, height, margin-top, margin-bottom, and float properties have no effect." ==========*/
 .terms {
 	position: relative;
 	display: inline;
